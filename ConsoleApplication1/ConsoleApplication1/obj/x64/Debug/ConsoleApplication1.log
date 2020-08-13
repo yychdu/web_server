@@ -1,0 +1,31 @@
+﻿D:\vs2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\obj\x64\Debug\)包含从另一个项目(ConsoleApplication1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  正在验证源
+  正在将源远程复制到“192.168.31.110”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.c
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\main.c(63,9): warning : unused variable ‘i’ [-Wunused-variable]
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\main.c(63,9): warning :      int i = 0;
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\main.c(63,9): warning :          ^
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\main.c(16,7): warning : unused variable ‘web_dir’ [-Wunused-variable]
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\main.c(16,7): warning :   char web_dir[128];
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\main.c(16,7): warning :        ^
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(23,13): warning : ‘parse_get’ declared ‘static’ but never defined [-Wunused-function]
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(23,13): warning :  static void parse_get(request_t* req);
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(23,13): warning :              ^
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(24,13): warning : ‘do_request’ declared ‘static’ but never defined [-Wunused-function]
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(24,13): warning :  static void do_request(response_t* res);
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(24,13): warning :              ^
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(25,13): warning : ‘response_b’ declared ‘static’ but never defined [-Wunused-function]
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(25,13): warning :  static void response_b(int fd, response_t* res);
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(25,13): warning :              ^
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(26,14): warning : ‘get_ftype’ declared ‘static’ but never defined [-Wunused-function]
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(26,14): warning :  static char* get_ftype(const char* path);
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(26,14): warning :               ^
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(27,13): warning : ‘get_request’ declared ‘static’ but never defined [-Wunused-function]
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(27,13): warning :  static void get_request(int fd, request_t* req);
+D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\trans.h(27,13): warning :              ^
+  正在链接对象
+  ConsoleApplication1.vcxproj -> D:\Ubuntu\ssh\ConsoleApplication1\ConsoleApplication1\bin\x64\Debug\Myweb.out

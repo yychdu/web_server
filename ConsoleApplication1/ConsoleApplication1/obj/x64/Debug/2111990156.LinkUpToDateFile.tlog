@@ -1,0 +1,1 @@
+g++ -o "/home/yyc/projects/Myweb/bin/x64/Debug/Myweb.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/yyc/projects/Myweb/obj/x64/Debug/config.o /home/yyc/projects/Myweb/obj/x64/Debug/main.o /home/yyc/projects/Myweb/obj/x64/Debug/socket.o /home/yyc/projects/Myweb/obj/x64/Debug/trans.o -lpthread
